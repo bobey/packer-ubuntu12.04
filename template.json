@@ -17,6 +17,8 @@
 
         "http_directory": "http",
 
+        "headless": true,
+
         "boot_command": [
             "<esc><esc><enter><wait>",
             "/install/vmlinuz noapic ",
