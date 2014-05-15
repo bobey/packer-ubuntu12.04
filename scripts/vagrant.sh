@@ -10,4 +10,4 @@ echo "${VAGRANT_USER} ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 mkdir $VAGRANT_HOME/.ssh
 cd $VAGRANT_HOME/.ssh
 wget --no-check-certificate "${VAGRANT_KEY_URL}" -O authorized_keys
-chown -R ${VAGRANT_USER}:${VAGRANT_USER}
+chown -R ${VAGRANT_USER}:${VAGRANT_USER} .
