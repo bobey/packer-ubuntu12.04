@@ -6,7 +6,9 @@ Construction de base box Vagrant avec Packer.
 
 **Contenu :**
 
-- ... WIP ...
+- PHP 5.5
+- Apache2
+- Ruby 1.9
 
 # Construction
 
