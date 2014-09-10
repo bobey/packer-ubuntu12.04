@@ -15,7 +15,7 @@
 
         "boot_wait": "15s",
 
-        "http_directory": "http",
+        "http_directory": "../http",
 
         "headless": true,
 
@@ -43,14 +43,14 @@
         "type": "shell",
         "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
         "scripts": [
-            "scripts/vagrant.sh",
-            "scripts/base.sh",
-            "scripts/devtools.sh"
+            "../scripts/vagrant.sh",
+            "../scripts/base.sh",
+            "../scripts/devtools.sh"
         ]
     }],
 
     "post-processors": [{
-        "output": "build/ubuntu-14.04-amd64.box",
+        "output": "../build/ubuntu-14.04-amd64.box",
         "type": "vagrant"
     }]
 }
