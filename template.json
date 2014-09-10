@@ -3,8 +3,8 @@
         "type": "virtualbox-iso",
         "guest_os_type": "Ubuntu_64",
 
-        "iso_url": "http://releases.ubuntu.com/12.04/ubuntu-12.04.4-server-amd64.iso",
-        "iso_checksum": "e83adb9af4ec0a039e6a5c6e145a34de",
+        "iso_url": "http://releases.ubuntu.com/14.04/ubuntu-14.04-server-amd64.iso",
+        "iso_checksum": "01545fa976c8367b4f0d59169ac4866c",
         "iso_checksum_type": "md5",
 
         "ssh_username": "vagrant",
@@ -18,6 +18,8 @@
         "http_directory": "http",
 
         "headless": true,
+
+        "guest_additions_mode": "disable",
 
         "boot_command": [
             "<esc><esc><enter><wait>",

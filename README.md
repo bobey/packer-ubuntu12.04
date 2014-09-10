@@ -1,9 +1,14 @@
-Construction d'une box ubuntu-12.04 avec Packer.
+Construction de base box Vagrant avec Packer.
 
-Work in progress.
+# Liste des box
 
-Construction
-------------
+## Ubuntu Trusty 64
+
+**Contenu :**
+
+- ... WIP ...
+
+# Construction
 
 ```
 packer build template.json
